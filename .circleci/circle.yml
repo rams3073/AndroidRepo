@@ -1,0 +1,9 @@
+version: 2
+jobs:
+  build:
+    
+    working_directory: ~/AndroidRepo
+
+    steps:
+
+      commands: echo "Hello, this is an android project"

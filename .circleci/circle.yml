@@ -1,0 +1,5 @@
+general:
+  branches:
+    only:
+     - feature # list of branches to build
+     command: echo Hello, world.

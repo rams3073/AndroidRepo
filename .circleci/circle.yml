@@ -6,5 +6,4 @@ jobs:
 
     steps:
 
-      commands:
-	 echo "Hello, this is an android project"
+      commands: echo "Hello, this is an android project"

@@ -1,5 +1,10 @@
-general:
-  branches:
-    only:
-     - feature # list of branches to build
-     command: echo Hello, world.
+version: 2
+jobs:
+  build:
+    
+    working_directory: ~/AndroidRepo
+
+    steps:
+
+      commands:
+	- echo "Hello, this is an android project"
